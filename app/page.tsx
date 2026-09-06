@@ -36,7 +36,7 @@ export default function Home() {
     <div className="min-w-0">
       <div className="eyebrow">{t.eyebrow}</div>
 
-      <h1 className="display mt-5 leading-[0.92]">
+      <h1 className="display mt-5 text-[clamp(3.2rem,5.2vw,5.6rem)] leading-[0.92] tracking-[-0.055em]">
         <span className="block whitespace-nowrap">
           {t.title1}
         </span>
@@ -75,7 +75,7 @@ export default function Home() {
     </div>
 
     {/* RIGHT — HERO IMAGE */}
-    <div className="relative min-h-[520px] lg:min-h-[650px] rounded-[32px] overflow-hidden bg-[#D9CDBB] flex items-center justify-center">
+    <div className="relative aspect-[4/5] lg:aspect-[4/5] rounded-[32px] overflow-hidden bg-[#D9CDBB] flex items-center justify-center">
 
       <img
         src="/images/hero-packaging.jpg"
