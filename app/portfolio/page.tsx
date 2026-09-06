@@ -9,7 +9,7 @@ const content = {
     intro: "Explore our packaging portfolio, from premium rigid boxes to flexible materials and industrial paper solutions.",
     projects: [
       ["01", "Hardbox", "Premium rigid box packaging with a strong structure, refined presentation, and dependable product protection.", "/images/portfolio-hardbox.svg"],
-      ["02", "E Flute", "Fine-flute corrugated packaging that combines a clean appearance, lightweight construction, and reliable protection.", "/images/portfolio-e-flute.svg"],
+      ["02", "E Flute", "Fine-flute corrugated packaging that combines a clean appearance, lightweight construction, and reliable protection.", "/images/portfolio-e-flute.jpg"],
       ["03", "Paper Bag", "Paper bag solutions for retail, promotional, and brand packaging applications with a practical and professional finish.", "/images/portfolio-paper-bag.svg"],
       ["04", "Paper Sack", "Paper sack packaging for industrial and commercial applications requiring practical handling and larger capacity.", "/images/portfolio-paper-sack.svg"],
       ["05", "PET, PP & DPET Sheet", "Sheet materials for packaging and thermoforming applications, selected around product requirements and production needs.", "/images/portfolio-pet-pp-dpet-sheet.svg"],
@@ -22,7 +22,7 @@ const content = {
     intro: "Jelajahi portofolio kemasan kami, mulai dari hardbox premium hingga material fleksibel dan solusi paper packaging untuk kebutuhan industri.",
     projects: [
       ["01", "Hardbox", "Kemasan rigid premium dengan struktur kokoh, tampilan elegan, dan perlindungan produk yang andal.", "/images/portfolio-hardbox.svg"],
-      ["02", "E Flute", "Kemasan corrugated dengan flute tipis yang memadukan tampilan rapi, bobot ringan, dan perlindungan yang baik.", "/images/portfolio-e-flute.svg"],
+      ["02", "E Flute", "Kemasan corrugated dengan flute tipis yang memadukan tampilan rapi, bobot ringan, dan perlindungan yang baik.", "/images/portfolio-e-flute.jpg"],
       ["03", "Paper Bag", "Solusi paper bag untuk kebutuhan retail, promosi, dan branding dengan hasil akhir yang praktis dan profesional.", "/images/portfolio-paper-bag.svg"],
       ["04", "Paper Sack", "Kemasan paper sack untuk kebutuhan industri dan komersial yang membutuhkan handling praktis dan kapasitas lebih besar.", "/images/portfolio-paper-sack.svg"],
       ["05", "PET, PP & DPET Sheet", "Material sheet untuk kebutuhan packaging dan thermoforming yang disesuaikan dengan kebutuhan produk dan proses produksi.", "/images/portfolio-pet-pp-dpet-sheet.svg"],
