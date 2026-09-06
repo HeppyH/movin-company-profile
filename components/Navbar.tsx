@@ -29,16 +29,13 @@ export default function Navbar() {
   return (
     <header className="sticky top-0 z-50 bg-[#F6F4EE]/95 backdrop-blur border-b border-black/10">
       <div className="container h-20 flex items-center justify-between gap-6">
-
-        {/* Logo */}
         <Link
           href="/"
           className="font-black text-2xl tracking-[-.06em] shrink-0"
         >
-          MOVIN<span className="text-[#4E6A5B]">.</span>
+          MovinPack<span className="text-[#4E6A5B]">.</span>
         </Link>
 
-        {/* Navigation */}
         <nav className="hidden md:flex items-center gap-7 text-sm font-semibold">
           <Link href="/">{t.home}</Link>
           <Link href="/about">{t.about}</Link>
@@ -47,15 +44,10 @@ export default function Navbar() {
           <Link href="/contact">{t.contact}</Link>
         </nav>
 
-        {/* Right side */}
         <div className="flex items-center gap-3">
-
-          {/* Language selector */}
           <select
             value={language}
-            onChange={(e) =>
-              setLanguage(e.target.value as "en" | "id")
-            }
+            onChange={(e) => setLanguage(e.target.value as "en" | "id")}
             className="bg-transparent border border-black/10 rounded-full px-3 py-2 text-sm font-semibold outline-none cursor-pointer"
             aria-label="Select language"
           >
@@ -63,11 +55,7 @@ export default function Navbar() {
             <option value="id">🇮🇩 ID</option>
           </select>
 
-          {/* Contact button */}
-          <Link
-            href="/contact"
-            className="btn btn-dark text-sm hidden sm:inline-flex"
-          >
+          <Link href="/contact" className="btn btn-dark text-sm hidden sm:inline-flex">
             {t.quote} →
           </Link>
         </div>
