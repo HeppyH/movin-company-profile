@@ -4,7 +4,7 @@ import Footer from "../components/Footer";
 import { LanguageProvider } from "../components/LanguageProvider";
 
 export const metadata = {
-  title: "MOVIN | Packaging Solutions",
+  title: "MovinPack | Packaging Solutions",
   description:
     "Professional packaging solutions for growing businesses.",
 };
