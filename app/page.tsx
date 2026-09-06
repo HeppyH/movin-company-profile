@@ -6,7 +6,7 @@ import { useLanguage } from "../components/LanguageProvider";
 const content = {
   en: {
     eyebrow: "Packaging Solutions", title1: "PACKAGING", title2: "THAT MOVES.",
-    description: "MOVIN helps businesses create packaging that protects products, communicates value, and is ready for real-world production.", start: "Start a Project", portfolioCta: "View Portfolio", what: "What We Do", whatTitle: "From packaging ideas to production-ready solutions.",
+    description: "MovinPack helps businesses create packaging that protects products, communicates value, and is ready for real-world production.", start: "Start a Project", portfolioCta: "View Portfolio", what: "What We Do", whatTitle: "From packaging ideas to production-ready solutions.",
     benefits: [["Protect Products", "Packaging that is safe and reliable"], ["Strengthen Brands", "Design that adds business value"], ["Ready for Production", "From concept to mass production"]],
     services: [["01", "Custom Packaging", "Packaging concepts tailored to product dimensions, handling requirements, and brand identity."], ["02", "Production Support", "Practical support from specifications and sampling through production coordination."], ["03", "Packaging Optimization", "Improve protection, usability, presentation, and cost efficiency across packaging formats."]],
     capabilities: "Capabilities", capabilitiesTitle: "Packaging designed around your product and brand.",
@@ -15,7 +15,7 @@ const content = {
   },
   id: {
     eyebrow: "Solusi Kemasan", title1: "KEMASAN", title2: "YANG MENGUATKAN.",
-    description: "MOVIN membantu bisnis menciptakan solusi kemasan yang melindungi produk, memperkuat nilai merek, dan siap memenuhi kebutuhan produksi nyata.", start: "Mulai Proyek", portfolioCta: "Lihat Portofolio", what: "Layanan Kami", whatTitle: "Dari ide kemasan hingga solusi siap produksi.",
+    description: "MovinPack membantu bisnis menciptakan solusi kemasan yang melindungi produk, memperkuat nilai merek, dan siap memenuhi kebutuhan produksi nyata.", start: "Mulai Proyek", portfolioCta: "Lihat Portofolio", what: "Layanan Kami", whatTitle: "Dari ide kemasan hingga solusi siap produksi.",
     benefits: [["Melindungi Produk", "Kemasan yang aman dan andal"], ["Memperkuat Merek", "Desain yang menambah nilai bisnis"], ["Siap Produksi", "Dari konsep hingga produksi massal"]],
     services: [["01", "Kemasan Kustom", "Konsep kemasan yang disesuaikan dengan dimensi produk, kebutuhan handling, dan identitas merek."], ["02", "Dukungan Produksi", "Dukungan praktis mulai dari spesifikasi dan sampling hingga koordinasi produksi."], ["03", "Optimasi Kemasan", "Meningkatkan perlindungan, kemudahan penggunaan, tampilan, dan efisiensi biaya pada berbagai format kemasan."]],
     capabilities: "Kapabilitas", capabilitiesTitle: "Kemasan yang dirancang untuk produk dan merek Anda.",
@@ -44,9 +44,9 @@ export default function Home() {
             </div>
           </div>
           <div className="relative min-h-[520px] lg:min-h-[650px] rounded-[32px] overflow-hidden bg-[#D9CDBB]">
-            <img src="/images/hero-packaging.jpg" alt="Professional MOVIN packaging solutions" className="absolute inset-0 h-full w-full object-cover" />
+            <img src="/images/hero-packaging.jpg" alt="Professional MovinPack packaging solutions" className="absolute inset-0 h-full w-full object-cover" />
             <div className="absolute inset-0 bg-gradient-to-t from-[#16201D]/55 via-transparent to-transparent" />
-            <div className="absolute left-7 bottom-7 text-white font-black text-3xl md:text-4xl tracking-[-.05em]">MOVIN.<br />PACKAGING.</div>
+            <div className="absolute left-7 bottom-7 text-white font-black text-3xl md:text-4xl tracking-[-.05em]">MOVINPACK.<br />PACKAGING.</div>
           </div>
         </div>
       </section>
